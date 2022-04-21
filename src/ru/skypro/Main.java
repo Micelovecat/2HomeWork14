@@ -48,7 +48,7 @@ public class Main {
         arr[indexB] = tmp;
     }
 
-    public static void sortSelection(Integer[] arr) {
+    private static void sortSelection(Integer[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minElementIndex = i;
             for (int j = i + 1; j < arr.length; j++) {
@@ -60,7 +60,7 @@ public class Main {
         }
     }
 
-    public static void sortInsertion(Integer[] arr) {
+    private static void sortInsertion(Integer[] arr) {
         for (int i = 1; i < arr.length; i++) {
             int temp = arr[i];
             int j = i;

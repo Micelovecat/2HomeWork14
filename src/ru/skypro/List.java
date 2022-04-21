@@ -7,10 +7,10 @@ public interface List {
     Integer set(int index, Integer item);
     Integer remove(Integer item);
     Integer remove(int index);
-    Integer contains(Integer item);
+    boolean contains(Integer item);
     int indexOf(Integer item);
     int lastIndexOf(Integer item);
-    Integer get(Integer item);
+    Integer get(int index);
     boolean equals(IntegerListImpl otherList);
     int size();
     boolean isEmpty();
